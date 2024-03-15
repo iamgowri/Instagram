@@ -56,5 +56,21 @@ header nav ul li a img{
     object-fit: cover;
 }
 header nav ul li a i{
-    font-size: 22;
+    font-size: 22px;
+    color: rgba(38,38,38,1);
+}
+
+
+/*body section*/
+
+section{
+    padding: 30px 18%;
+    background-color: #fafafa;
+    display: flex;
+}
+.left-side{
+    width: 65%;
+}
+.right-side{
+    width: 35;
 }

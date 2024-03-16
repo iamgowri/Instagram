@@ -71,6 +71,34 @@ section{
 .left-side{
     width: 65%;
 }
+.story{
+    display: flex;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid rgba(219,219,219,1) ;
+    border-radius: 3px;
+}
+.story .stories{
+    width: 17%;
+}
+.story .stories a img{
+    border-radius: 50%;
+    border: 2px solid #c62d8f;
+    padding: 1px;
+    object-fit: cover;
+}
+.story .storiesp{
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #262626;
+}
+
+
+
+
+
 .right-side{
     width: 35;
 }
